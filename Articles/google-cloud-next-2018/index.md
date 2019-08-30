@@ -4,7 +4,7 @@ date: 2018-10-13T15:20:01.169Z
 author: Thibault Fontaine
 ---
 
-Notre consultant, Thibault Fontaine, s’est rendu à l’évènement Google Cloud Next 2018 qui s’est déroulé à Londres les 10 et 11 Octobre, voici son retour…​
+Notre consultant, Thibault Fontaine, s’est rendu à l’évènement Google Cloud Next 2018 qui s’est déroulé à Londres les 10 et 11 Octobre, voici son retour :
 
 ​
 
