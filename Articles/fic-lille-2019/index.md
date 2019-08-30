@@ -1,7 +1,7 @@
 ---
 title: FIC Lille 2019
 date: 2019-01-26T15:20:01.169Z
-author: Hicham SAMIDA et Bertrand Rabany 
+author: Hicham SAMIDA & Bertrand Rabany 
 ---
 
 Le 23 et 24 janvier 2019 a eu lieu la 11ème édition du Forum International de la Cybersécurité à Lille. Bertrand et Hicham s’ y sont rendus pour l’occasion, voici leur retour :​
