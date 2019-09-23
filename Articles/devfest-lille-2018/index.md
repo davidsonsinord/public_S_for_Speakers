@@ -124,7 +124,7 @@ Les outils mis en place se positionnent dans ces 5 phases :
 * Speedboat: **évaluation**
 
 🚨 **Needs ≠ Solutions** : Si on demande à un dev ses besoins sur son problème de *manque d'environnement*, il pourrait répondre:
-> Y a qu'à installer Docker !
+> Il y a qu'à installer Docker !
 
 ## Conférence - A Kotlink between worlds
 > Par Benjamin Monjoie  
@@ -157,7 +157,7 @@ On peut donc coder en parallèle une **application Web** et une application **An
 2. Javascript (view)
 3. Commun en Kotlin (modèle + contrôleurs)
 
-Pour faire le lien entre ces 3 modules, on utilisera les mot-clés `expect` et `actual`.
+Pour faire le lien entre ces 3 modules, on utilisera les mots-clés `expect` et `actual`.
 
 `expect` dans le module commun va définir des interfaces, dont l'implémentation sera dans les modules spécifiques aux plateformes.
 
@@ -173,7 +173,7 @@ Pour les modules spécifiques, aucun problème pour utiliser les frameworks de t
 - *JVM* : Junit
 - *Javascript*: Jasmine , Jest, Karma …
 
-Le mot clé `internal` de Kotlin permet de rendre une fonction privée au package uniquement, permettant de la **tester** (à condition que la classe de test appartienne au même package) tout en la gardant invisible à l'extérieur !
+Le mot-clé `internal` de Kotlin permet de rendre une fonction privée au package uniquement, permettant de la **tester** (à condition que la classe de test appartienne au même package) tout en la gardant invisible à l'extérieur !
 
 ### Gotcha !
 
@@ -235,7 +235,7 @@ Sur un serveur, si le client ne supporte pas http2 (clear text), alors fallback 
 
 #### PUSH
 
-Dans une même requête, on peut avoir plusieurs réponses. Par exemple, pour une page html, on peut pré-cacher dans le navigateur les resources qui vont avec (JS, CSS, images …). Le serveur Web est paramétré pour pusher ces resources associées à une page.
+Dans une même requête, on peut avoir plusieurs réponses. Par exemple, pour une page html, on peut pré-cacher dans le navigateur les ressources qui vont avec (JS, CSS, images …). Le serveur Web est paramétré pour pusher les ressources associées à une page.
 
 ## CodeLab - Le Pair Programming sous toutes ses formes
 
@@ -254,7 +254,7 @@ Il y a quelques règles à définir pour la session :
 - les rotations
 - qui est le premier au clavier
 
-💡 Quelques rappels : Soyer bienveillants et restez concentrés sur votre objectif !
+💡 Quelques rappels : Soyez bienveillants et restez concentrés sur votre objectif !
 
 Checklist :
 
@@ -314,7 +314,7 @@ Les tests contiennent les données de test
 
 Inconvénients : questionner les détails d'implémentation, mettre la pression au Driver, s'inquiéter en cas d'absence du buffer.
 
-#### Ping Pong
+#### Ping-Pong
 
 Alice écrit un test (qui ne passe pas). Bob fait passer le test en écrivant du code métier, puis Bob écrit un nouveau test (qui ne passe pas non plus). Alice fait passer le test. Répéter en continuant à permuter toutes les 3-5 minutes...
 
@@ -331,7 +331,7 @@ Un driver au clavier, suit les instructions des navigateurs qui voient le code p
 
 #### Découverte d'un langage en binôme
 
-1 PC ouvert sur la doc/ internet. 1 PC avec l'IDE dans lequel on implémente une méthode en quelques minutes, et on échange les places.
+1 PC ouvert sur la doc/ Internet. 1 PC avec l'IDE dans lequel on implémente une méthode en quelques minutes, et on échange les places.
 
 Crédits : @antoineneveux
 
@@ -359,13 +359,13 @@ Pour finir la journée avec légèreté, j'ai souhaité assister à cette initia
 
 Le japonais s'écrit avec différents types de caractères :
 
-- Les [hiragana](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Table_hiragana.svg/768px-Table_hiragana.svg.png) forment un syllabaires de 46 «sons», utilisé pour les mots d'origine japonaise et pour la grammaire.
-- Les [katakana](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Table_katakana.svg/768px-Table_katakana.svg.png) forment un second syllabaire utilisés pour les mots d'origine étrangère (**katakana**) comme «Champagne - チャンペン», «Chocolat - チョコレート» ou «Vincent - ヴァンサン» …
-- Les **Kanji** sont les les caractères complexes d'origine Chinoise utilisés pour l'écriture des mots japonais.
+- Les [hiraganas](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Table_hiragana.svg/768px-Table_hiragana.svg.png) forment un syllabaire de 46 «sons» utilisé pour les mots d'origine japonaise et pour la grammaire.
+- Les [katakanas](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Table_katakana.svg/768px-Table_katakana.svg.png) forment un second syllabaire utilisé pour les mots d'origine étrangère (**katakana**) comme «Champagne - チャンペン», «Chocolat - チョコレート» ou «Vincent - ヴァンサン» …
+- Les **Kanjis** sont les caractères complexes d'origine chinoise utilisés pour l'écriture des mots japonais.
 
 ## Keynote de clôture
 
-Pour clôturer le DevFest 2018, des gros fou-rires et auto-dérision lors d'une séance de [SpeechLess](http://speechlesslive.com/). 
+Pour clôturer le Dev Fest 2018, des gros fous rires et autodérision lors d'une séance de [SpeechLess](http://speechlesslive.com/). 
 
 La recette est simple, prenez :
 
@@ -375,12 +375,12 @@ La recette est simple, prenez :
 - 1 sujet tiré au hasard
 - des slides tout aussi aléatoires
 
-Chaque speaker a 8 minutes pour improviser sur un sujet qu'il ne connait pas, mais qui doit malgrés tout convaincre qu'il maîtrise !
+Chaque speaker a 8 minutes pour improviser sur un sujet qu'il ne connait pas, mais qui doit malgré tout convaincre qu'il maîtrise !
 
 Les sujets tirés étaient :
 
 - « La reine des neiges »
-- « Conférence post-mortem de la Fiat Multipla »
-- « Conférence post-mortem d'Internet Explorer »
+- « Conférence postmortem de la Fiat Multipla »
+- « Conférence postmortem d'Internet Explorer »
 
 Tout repose sur le talent oratoire et de comédien des speakers, emmenant le public dans un délire improvisé.
