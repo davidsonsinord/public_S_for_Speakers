@@ -26,8 +26,11 @@ Retour sur mon parcours :
 - Networking avec plusieurs acteurs Thalès, SFR, Stormshield etc. 
 - [Conférence de DarkTrace](https://www.darktrace.com/fr/) DarkTrace, L'IA dans la cybersécurité
 - [Conférence de Carrefour] Carrefour a expliqué leur stratégie de sécurité en partenariat avec GCP (Google Cloud Plateform). 
+
 Google a présenté le déploiement de ses propres liens réseaux intercontinentaux. 
+
 Le prochain évènement majeur en cybersécurité se déroulera le 26 & 27 juin à Paris, il s'agit de "LE HACK" (anciennement "La Nuit du Hack"), [plus d'information ici](https://lehack.org/fr) »
+
 
 ### **Maxime (Ingénieur QA chez StormShield)** : 
 
