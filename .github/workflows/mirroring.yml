@@ -1,0 +1,20 @@
+name: mirroring for public web3 on flux
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  mirroring:
+    name: mirroring for web3 on flux
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: git@github.com:davidsonsinord/public_S_for_Speakers.git
+          ssh_private_key: ${{ secrets.MIRROR_SSH_KEY }}
