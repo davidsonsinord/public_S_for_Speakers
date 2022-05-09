@@ -11,9 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          ref: master
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: git@github.com:davidsonsinord/public_S_for_Speakers.git
